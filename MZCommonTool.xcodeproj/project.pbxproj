@@ -14,6 +14,13 @@
 		F30018C2207C9F8500AA8FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30018C1207C9F8500AA8FD1 /* Assets.xcassets */; };
 		F30018C5207C9F8500AA8FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30018C3207C9F8500AA8FD1 /* LaunchScreen.storyboard */; };
 		F30018C8207C9F8500AA8FD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018C7207C9F8500AA8FD1 /* main.m */; };
+		F30018EB207CA9BE00AA8FD1 /* MZ_HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018EA207CA9BE00AA8FD1 /* MZ_HttpRequest.m */; };
+		F30018EE207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018ED207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.m */; };
+		F30018F1207CAACE00AA8FD1 /* MZ_HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018F0207CAACE00AA8FD1 /* MZ_HttpResponse.m */; };
+		F30018F4207CAC3500AA8FD1 /* MZ_HttpImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018F3207CAC3500AA8FD1 /* MZ_HttpImageRequest.m */; };
+		F30018F7207CAEA700AA8FD1 /* MZ_HttpCoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018F6207CAEA700AA8FD1 /* MZ_HttpCoreManager.m */; };
+		F30018FB207CB47F00AA8FD1 /* MZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018FA207CB47F00AA8FD1 /* MZObject.m */; };
+		F30018FE207CB53900AA8FD1 /* MZObjectPropertyAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F30018FD207CB53900AA8FD1 /* MZObjectPropertyAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,20 @@
 		F30018C4207C9F8500AA8FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F30018C6207C9F8500AA8FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30018C7207C9F8500AA8FD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F30018E9207CA9BE00AA8FD1 /* MZ_HttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZ_HttpRequest.h; sourceTree = "<group>"; };
+		F30018EA207CA9BE00AA8FD1 /* MZ_HttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZ_HttpRequest.m; sourceTree = "<group>"; };
+		F30018EC207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZ_HTTPSessionManager.h; sourceTree = "<group>"; };
+		F30018ED207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZ_HTTPSessionManager.m; sourceTree = "<group>"; };
+		F30018EF207CAACE00AA8FD1 /* MZ_HttpResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZ_HttpResponse.h; sourceTree = "<group>"; };
+		F30018F0207CAACE00AA8FD1 /* MZ_HttpResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZ_HttpResponse.m; sourceTree = "<group>"; };
+		F30018F2207CAC3500AA8FD1 /* MZ_HttpImageRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZ_HttpImageRequest.h; sourceTree = "<group>"; };
+		F30018F3207CAC3500AA8FD1 /* MZ_HttpImageRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZ_HttpImageRequest.m; sourceTree = "<group>"; };
+		F30018F5207CAEA700AA8FD1 /* MZ_HttpCoreManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZ_HttpCoreManager.h; sourceTree = "<group>"; };
+		F30018F6207CAEA700AA8FD1 /* MZ_HttpCoreManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZ_HttpCoreManager.m; sourceTree = "<group>"; };
+		F30018F9207CB47F00AA8FD1 /* MZObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZObject.h; sourceTree = "<group>"; };
+		F30018FA207CB47F00AA8FD1 /* MZObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZObject.m; sourceTree = "<group>"; };
+		F30018FC207CB53900AA8FD1 /* MZObjectPropertyAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZObjectPropertyAttribute.h; sourceTree = "<group>"; };
+		F30018FD207CB53900AA8FD1 /* MZObjectPropertyAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZObjectPropertyAttribute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +107,10 @@
 				F30018B9207C9F8500AA8FD1 /* AppDelegate.m */,
 				F30018BB207C9F8500AA8FD1 /* ViewController.h */,
 				F30018BC207C9F8500AA8FD1 /* ViewController.m */,
+				F30018F5207CAEA700AA8FD1 /* MZ_HttpCoreManager.h */,
+				F30018F6207CAEA700AA8FD1 /* MZ_HttpCoreManager.m */,
+				F30018F8207CB46A00AA8FD1 /* MZObject */,
+				F30018E8207CA9A300AA8FD1 /* MZ_NetWork */,
 				F30018BE207C9F8500AA8FD1 /* Main.storyboard */,
 				F30018C1207C9F8500AA8FD1 /* Assets.xcassets */,
 				F30018C3207C9F8500AA8FD1 /* LaunchScreen.storyboard */,
@@ -93,6 +118,32 @@
 				F30018C7207C9F8500AA8FD1 /* main.m */,
 			);
 			path = MZCommonTool;
+			sourceTree = "<group>";
+		};
+		F30018E8207CA9A300AA8FD1 /* MZ_NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				F30018E9207CA9BE00AA8FD1 /* MZ_HttpRequest.h */,
+				F30018EA207CA9BE00AA8FD1 /* MZ_HttpRequest.m */,
+				F30018F2207CAC3500AA8FD1 /* MZ_HttpImageRequest.h */,
+				F30018F3207CAC3500AA8FD1 /* MZ_HttpImageRequest.m */,
+				F30018EF207CAACE00AA8FD1 /* MZ_HttpResponse.h */,
+				F30018F0207CAACE00AA8FD1 /* MZ_HttpResponse.m */,
+				F30018EC207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.h */,
+				F30018ED207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.m */,
+			);
+			path = MZ_NetWork;
+			sourceTree = "<group>";
+		};
+		F30018F8207CB46A00AA8FD1 /* MZObject */ = {
+			isa = PBXGroup;
+			children = (
+				F30018F9207CB47F00AA8FD1 /* MZObject.h */,
+				F30018FA207CB47F00AA8FD1 /* MZObject.m */,
+				F30018FC207CB53900AA8FD1 /* MZObjectPropertyAttribute.h */,
+				F30018FD207CB53900AA8FD1 /* MZObjectPropertyAttribute.m */,
+			);
+			path = MZObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,8 +272,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30018BD207C9F8500AA8FD1 /* ViewController.m in Sources */,
+				F30018FE207CB53900AA8FD1 /* MZObjectPropertyAttribute.m in Sources */,
+				F30018F1207CAACE00AA8FD1 /* MZ_HttpResponse.m in Sources */,
+				F30018FB207CB47F00AA8FD1 /* MZObject.m in Sources */,
+				F30018EB207CA9BE00AA8FD1 /* MZ_HttpRequest.m in Sources */,
 				F30018C8207C9F8500AA8FD1 /* main.m in Sources */,
+				F30018F7207CAEA700AA8FD1 /* MZ_HttpCoreManager.m in Sources */,
 				F30018BA207C9F8500AA8FD1 /* AppDelegate.m in Sources */,
+				F30018F4207CAC3500AA8FD1 /* MZ_HttpImageRequest.m in Sources */,
+				F30018EE207CA9FA00AA8FD1 /* MZ_HTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
